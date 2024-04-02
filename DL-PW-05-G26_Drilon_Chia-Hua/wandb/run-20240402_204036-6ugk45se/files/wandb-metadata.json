@@ -1,0 +1,79 @@
+{
+    "os": "Linux-6.5.0-26-generic-x86_64-with-glibc2.35",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-04-02T18:40:37.278984",
+    "startedAt": "2024-04-02T18:40:36.663043",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "DL-PW-05-G26_Drilon_Chia-Hua/wandb_test.ipynb",
+    "codePathLocal": null,
+    "root": "/home/shubuni/Documents/Master/DeepLearn/MSE-DeepLearn",
+    "git": {
+        "remote": "git@github.com:Dr-Shab/MSE-DeepLearn.git",
+        "commit": "cae2abc684b09ee4cc365a8418793cc7b5d79a44"
+    },
+    "email": "drishabani@hotmail.com",
+    "host": "shubuni-ThinkPad-E595",
+    "username": "shubuni",
+    "executable": "/home/shubuni/anaconda3/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2.9082500000000002,
+        "min": 1400.0,
+        "max": 2100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2.614,
+            "min": 1400.0,
+            "max": 2100.0
+        },
+        {
+            "current": 2.614,
+            "min": 1400.0,
+            "max": 2100.0
+        },
+        {
+            "current": 2.701,
+            "min": 1400.0,
+            "max": 2100.0
+        },
+        {
+            "current": 2.773,
+            "min": 1400.0,
+            "max": 2100.0
+        },
+        {
+            "current": 2.614,
+            "min": 1400.0,
+            "max": 2100.0
+        },
+        {
+            "current": 2.614,
+            "min": 1400.0,
+            "max": 2100.0
+        },
+        {
+            "current": 3.262,
+            "min": 1400.0,
+            "max": 2100.0
+        },
+        {
+            "current": 3.253,
+            "min": 1400.0,
+            "max": 2100.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 233.17998886108398,
+            "used": 167.24232864379883
+        }
+    },
+    "memory": {
+        "total": 29.24575424194336
+    }
+}
