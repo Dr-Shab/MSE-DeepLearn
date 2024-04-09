@@ -19,3 +19,10 @@ Using nbformat v5.9.2 and nbconvert v7.16.1
 
 then just run all cells of that notebook locally, check if an error occured, if not, just stage, commit and push that file again.
 
+### Submit.sh
+When all exercises are done this script can be run with the week argument as follows, e.g PW07 is done:
+
+```bash
+$ submit.sh -w 7
+```
+Which then will copy and zip all files from the DL-PW07.. directory and create a zip file in the submission directory.
