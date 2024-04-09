@@ -14,6 +14,14 @@ while getopts 'hw:' flag; do
 	esac
 done
 
+if [ -d "../submission" ]
+then
+	if [ ! -d "../sumission/G26_Drilon_Chia-Hua" ]; then mkdir ../submission/G26_Drilon_Chia-Hua; fi
+else
+	mkdir ../submission
+	mkdir ../submission/G26_Drilon_Chia-Hua
+fi
+
 if [[ $WEEK == "" ]]
 then
 	echo -e "No week number provided, exiting"
@@ -39,7 +47,6 @@ else
 fi
 
 echo -e "ziping up everything"
-
 cd ../submission/
 zip -r G26_Drilon_Chia-Hua.zip G26_Drilon_Chia-Hua/
 echo -e "done"
